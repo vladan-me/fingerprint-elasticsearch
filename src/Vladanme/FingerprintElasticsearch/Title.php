@@ -2,7 +2,10 @@
 
 namespace Vladanme\FingerprintElasticsearch;
 
-class Title extends FingerprintElasticsearch {
+use Vladanme\Fingerprint\TitleTrait;
+
+class Title extends BasicES {
+  use TitleTrait;
 
   protected $filter_syn_name_es = 'fp_title_syn';
   protected $filter_rem_name_es = 'fp_title_rem';

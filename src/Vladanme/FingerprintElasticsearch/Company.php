@@ -1,7 +1,10 @@
 <?php
 namespace Vladanme\FingerprintElasticsearch;
 
-class Company extends FingerprintElasticsearch {
+use Vladanme\Fingerprint\CompanyTrait;
+
+class Company extends BasicES {
+  use CompanyTrait;
 
   protected $filter_syn_name_es = 'fp_company_syn';
   protected $filter_rem_name_es = 'fp_company_rem';

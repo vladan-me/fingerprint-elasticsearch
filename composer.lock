@@ -4,29 +4,32 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "60bfceb96a3c2b60590d85bf2d47c793",
+    "content-hash": "36314c12d8c4233646b09115d7a9b729",
     "packages": [
         {
             "name": "vladan-me/fingerprint",
-            "version": "v1.0.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vladan-me/fingerprint.git",
-                "reference": "82c8999aba28716309be20bd2a9466f072001e53"
+                "reference": "1996c32a15432ff4c1400f7e888a7a34f1aa67cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vladan-me/fingerprint/zipball/82c8999aba28716309be20bd2a9466f072001e53",
-                "reference": "82c8999aba28716309be20bd2a9466f072001e53",
+                "url": "https://api.github.com/repos/vladan-me/fingerprint/zipball/1996c32a15432ff4c1400f7e888a7a34f1aa67cc",
+                "reference": "1996c32a15432ff4c1400f7e888a7a34f1aa67cc",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
             },
+            "suggest": {
+                "vladan-me/fingerprint-elasticsearch": "~1.0"
+            },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Vladanme\\Fingerprint\\": "src/"
+                    "Vladanme\\Fingerprint\\": "src/Vladanme/Fingerprint/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -46,7 +49,7 @@
                 "elasticsearch",
                 "ngram"
             ],
-            "time": "2017-11-24T12:47:00+00:00"
+            "time": "2017-11-24T18:25:39+00:00"
         }
     ],
     "packages-dev": [],

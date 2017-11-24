@@ -2,9 +2,9 @@
 
 namespace Vladanme\FingerprintElasticsearch;
 
-use Vladanme\Fingerprint\Fingerprint;
+use Vladanme\Fingerprint\BasicFP;
 
-class FingerprintElasticsearch extends Fingerprint {
+class BasicES extends BasicFP {
   /**
    * Filter synonym name for ES.
    *

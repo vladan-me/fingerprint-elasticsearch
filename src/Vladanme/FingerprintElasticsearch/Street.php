@@ -1,7 +1,10 @@
 <?php
 namespace Vladanme\FingerprintElasticsearch;
 
-class Street extends FingerprintElasticsearch {
+use Vladanme\Fingerprint\StreetTrait;
+
+class Street extends BasicES {
+  use StreetTrait;
 
   protected $filter_syn_name_es = 'fp_street_syn';
   protected $filter_rem_name_es = 'fp_street_rem';
