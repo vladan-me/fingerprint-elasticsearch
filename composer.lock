@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "60bfceb96a3c2b60590d85bf2d47c793",
+    "packages": [
+        {
+            "name": "vladan-me/fingerprint",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vladan-me/fingerprint.git",
+                "reference": "82c8999aba28716309be20bd2a9466f072001e53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vladan-me/fingerprint/zipball/82c8999aba28716309be20bd2a9466f072001e53",
+                "reference": "82c8999aba28716309be20bd2a9466f072001e53",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vladanme\\Fingerprint\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladan Djokic",
+                    "email": "vladan.me@gmail.com",
+                    "homepage": "https://github.com/vladan-me"
+                }
+            ],
+            "description": "Provides a custom implementation of fingerprint and ngram algorithms in PHP",
+            "keywords": [
+                "Fingerprint",
+                "elasticsearch",
+                "ngram"
+            ],
+            "time": "2017-11-24T12:47:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "vladan-me/fingerprint-elasticsearch",
+  "description": "Specifies advanced fingerprint analyzer for Elasticsearch index",
+  "keywords": ["fingerprint", "ngram", "elasticsearch"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladan Djokic",
+      "email": "vladan.me@gmail.com",
+      "homepage": "https://github.com/vladan-me"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "vladan-me/fingerprint": "~1.0"
+  },
+  "autoload": {
+    "psr-4": { "Vladanme\\FingerprintElasticsearch\\": "src/" }
+  }
+}
