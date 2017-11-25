@@ -16,5 +16,8 @@
   },
   "autoload": {
     "psr-4": { "Vladanme\\FingerprintElasticsearch\\": "src/Vladanme/FingerprintElasticsearch/" }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
   }
 }
