@@ -32,8 +32,8 @@ class FingerprintElasticsearchType
 
     public function __construct(FingerprintType $fingerprintType)
     {
-        $this->syn = $fingerprintType->getAllSyn();
-        $this->rem = $fingerprintType->getAllRem();
-        $this->syn_rem = $fingerprintType->getAllSynRem();
+        $this->syn = $fingerprintType->retrieveAllSynonyms();
+        $this->rem = $fingerprintType->retrieveAllRemovals();
+        $this->syn_rem = $fingerprintType->retrieveAllSynonymsAndRemovals();
     }
 }
