@@ -82,7 +82,6 @@ class FingerprintElasticsearchTest extends \PHPUnit_Framework_TestCase
           ],
         ];
         $expectedProp = [
-          [
             'type'         => 'keyword',
             'ignore_above' => 256,
             'fields'       => [
@@ -103,7 +102,6 @@ class FingerprintElasticsearchTest extends \PHPUnit_Framework_TestCase
                 'analyzer' => 'puncteater3gram',
               ],
             ],
-          ]
         ];
 
         $this->assertEquals($expectedAnalyzer, $analyzer);
