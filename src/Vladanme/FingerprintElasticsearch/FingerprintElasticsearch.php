@@ -38,6 +38,29 @@ class FingerprintElasticsearch
         $this->rem = $fingerprintElasticsearchType->getRem();
     }
 
+    /**
+     * @param string $filter_syn_name_es
+     */
+    public function setFilterSynNameEs($filter_syn_name_es)
+    {
+        $this->filter_syn_name_es = $filter_syn_name_es;
+    }
+
+    /**
+     * @param string $filter_rem_name_es
+     */
+    public function setFilterRemNameEs($filter_rem_name_es)
+    {
+        $this->filter_rem_name_es = $filter_rem_name_es;
+    }
+    /**
+     * @param string $analyzer_fp_name_es
+     */
+    public function setAnalyzerFpNameEs($analyzer_fp_name_es)
+    {
+        $this->analyzer_fp_name_es = $analyzer_fp_name_es;
+    }
+
     public function getAllSynonyms()
     {
         return array_merge($this->syn, $this->syn_rem);
